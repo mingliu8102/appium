@@ -34,7 +34,7 @@
      ` allure serve allure-results`  
     + 说明：Allure报告数据存放在/allure-results下
 ## Allure报告：
-![](/Users/mingliu/Desktop/截屏2022-10-08 下午8.25.30.png)
+![image](https://github.com/mingliu8102/Images-blog/blob/main/allure%20report.png)
 
 
 
