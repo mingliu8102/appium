@@ -1,0 +1,12 @@
+{
+  "searchBar": {
+    "by": "id",
+    "value": "com.netease.cloudmusic:id/searchBar",
+    "comment": "搜索框"
+  },
+  "findBtn": {
+    "by": "xpath",
+    "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.view.ViewGroup[1]/android.widget.TextView",
+    "comment": "发现图标"
+  }
+}

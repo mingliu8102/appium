@@ -1,0 +1,49 @@
+{
+  "agree": {
+    "by": "id",
+    "value": "com.netease.cloudmusic:id/agree",
+    "comment": "同意用户协议"
+  },
+  "permissionBtn": {
+    "by": "id",
+    "value": "com.lbe.security.miui:id/permission_allow_foreground_only_button",
+    "comment": "权限申请"
+  },
+  "thirdLoginText": {
+    "by": "id",
+    "value": "com.netease.cloudmusic:id/thirdLoginTextView",
+    "comment": "其他登陆方式"
+  },
+  "mailCoin": {
+    "by": "accessibility",
+    "value": "mail",
+    "comment": "mail登陆"
+  },
+  "positiveBtn": {
+    "by": "id",
+    "value": "com.netease.cloudmusic:id/positiveBtn",
+    "comment": "同意用户协议"
+  },
+  "emailAddr": {
+    "by": "id",
+    "value": "com.netease.cloudmusic:id/email",
+    "comment": "电子邮箱地址"
+  },
+  "password": {
+    "by": "id",
+    "value": "com.netease.cloudmusic:id/password",
+    "comment": "电子邮箱密码"
+  },
+  "loginBtn": {
+    "by": "id",
+    "value": "com.netease.cloudmusic:id/login",
+    "comment": "登陆按钮"
+  },
+  "guest": {
+    "by": "id",
+    "value": "com.netease.cloudmusic:id/trialT",
+    "comment": "立即体验，不登陆账号"
+  }
+}
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.mingliu.listeners.TestResultListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="测试第三方账号登陆">
+        <parameter name="platformName" value="Android"></parameter>
+        <parameter name="platformVersion" value="12"></parameter>
+        <parameter name="udid" value="5f60f50e"></parameter>
+        <parameter name="appPackage" value="com.netease.cloudmusic"></parameter>
+        <parameter name="appActivity" value=".activity.LoadingActivity"></parameter>
+
+        <classes>
+
+            <class name="com.mingliu.login.LoginTest">
+
+                <methods>
+                    <include name="thirdPartLoginTest"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="测试游客身份登陆，并搜索歌曲">
+        <parameter name="platformName" value="Android"></parameter>
+        <parameter name="platformVersion" value="12"></parameter>
+        <parameter name="udid" value="5f60f50e"></parameter>
+        <parameter name="appPackage" value="com.netease.cloudmusic"></parameter>
+        <parameter name="appActivity" value=".activity.LoadingActivity"></parameter>
+
+        <parameter name="song" value="贝加尔湖畔"></parameter>
+        <classes>
+            <class name="com.mingliu.login.LoginTest">
+                <methods>
+                    <include name="guestLoginTest"/>
+                </methods>
+            </class>
+            <class name="com.mingliu.search.SearchTest">
+                <methods>
+                    <include name="searchSong"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

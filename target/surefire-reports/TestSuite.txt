@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 60.244 s <<< FAILURE! - in TestSuite
+thirdPartLoginTest(com.mingliu.login.LoginTest)  Time elapsed: 23.254 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_341'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [919520b2-e4f7-4b53-a091-0331c87c55da, findElement {using=id, value=com.netease.cloudmusic:id/searchBar}]
+Capabilities {appium:appActivity: .activity.LoadingActivity, appium:appPackage: com.netease.cloudmusic, appium:autoGrantPermissions: true, appium:connectHardwareKeyboard: true, appium:databaseEnabled: false, appium:desired: {appActivity: .activity.LoadingActivity, appPackage: com.netease.cloudmusic, autoGrantPermissions: true, connectHardwareKeyboard: true, ensureWebviewsHavePages: true, nativeWebScreenshot: true, newCommandTimeout: 3600, platformName: android, platformVersion: 12, udid: 5f60f50e}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Xiaomi, appium:deviceModel: M2007J17C, appium:deviceName: 5f60f50e, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 5f60f50e, appium:ensureWebviewsHavePages: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 3600, appium:pixelRatio: 2.75, appium:platformVersion: 12, appium:statBarHeight: 91, appium:takesScreenshot: true, appium:udid: 5f60f50e, appium:viewportRect: {height: 2174, left: 0, top: 91, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 919520b2-e4f7-4b53-a091-0331c87c55da
+	at com.mingliu.login.LoginTest.thirdPartLoginTest(LoginTest.java:63)
+
