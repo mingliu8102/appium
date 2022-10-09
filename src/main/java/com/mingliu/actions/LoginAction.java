@@ -51,5 +51,10 @@ public class LoginAction extends BaseAction {
     public void guestLogin() {
         click(loginPage.guest);
     }
-
+    //同意隐私条款
+    public void agreePrivacy(){click(loginPage.checkBox);}
+    //返回登陆界面
+    public void back(){
+        click(loginPage.back);
+    }
 }

@@ -33,7 +33,7 @@
 
         <parameter name="song" value="贝加尔湖畔"></parameter>
         <classes>
-            <class name="com.mingliu.login.LoginTest">
+            <class name="com.mingliu.login.GuestLoginTest">
                 <methods>
                     <include name="guestLoginTest"/>
                 </methods>

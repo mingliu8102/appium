@@ -2,6 +2,7 @@ package com.mingliu.page;
 
 import com.mingliu.base.BasePage;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.WebElement;
 
 public class LoginPage extends BasePage {
@@ -32,4 +33,10 @@ public class LoginPage extends BasePage {
     //同意用户协议
     @AndroidFindBy(id = "com.netease.cloudmusic:id/positiveBtn")
     public WebElement positiveBtn;
+    //第三方账号登陆界面返回
+    @AndroidFindBy(xpath = "//android.widget.ImageButton[@content-desc=\"转到上一层级\"]")
+    public WebElement back;
+    //同意隐私条款checkBox
+    @AndroidFindBy(id = "com.netease.cloudmusic:id/agreeCheckbox")
+    public  WebElement checkBox;
 }

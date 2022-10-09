@@ -15,8 +15,9 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="backTOLogin"/>
           <include name="init"/>
-          <include name="thirdPartLoginTest"/>
+          <include name="thirdPartLoginTest" invocation-numbers="0 1 2 3 4 5"/>
         </methods>
       </class> <!-- com.mingliu.login.LoginTest -->
     </classes>

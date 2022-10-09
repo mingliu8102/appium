@@ -5,7 +5,11 @@
     4. Testing Framework - TestNG
     5. Design pattern - Page Object Model
     6. Reporting Framework - Allure
-
+# Features  
+   + Page Object设计模式
+   + Datadriver 数据驱动  
+   + Allure report
+   + Page class生成器：/utils/ClassGenerator.java
 # 文件结构
    - /main
      - /java/com/mingliu/:

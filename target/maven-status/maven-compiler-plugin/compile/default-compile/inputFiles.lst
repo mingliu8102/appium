@@ -1,6 +1,7 @@
 /Users/mingliu/course/jike/appiumLearn/src/main/java/com/mingliu/actions/FindPageAction.java
 /Users/mingliu/course/jike/appiumLearn/src/main/java/com/mingliu/base/BaseAction.java
 /Users/mingliu/course/jike/appiumLearn/src/main/java/com/mingliu/utils/JsonParseHelper.java
+/Users/mingliu/course/jike/appiumLearn/src/main/java/com/mingliu/data/LoginData.java
 /Users/mingliu/course/jike/appiumLearn/src/main/java/com/mingliu/page/LoginPage.java
 /Users/mingliu/course/jike/appiumLearn/src/main/java/com/mingliu/actions/SearchPageAction.java
 /Users/mingliu/course/jike/appiumLearn/src/main/java/com/mingliu/utils/ClassGenerator.java

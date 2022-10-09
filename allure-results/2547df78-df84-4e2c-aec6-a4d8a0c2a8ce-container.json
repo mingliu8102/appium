@@ -1,0 +1,1 @@
+{"uuid":"2547df78-df84-4e2c-aec6-a4d8a0c2a8ce","name":"com.mingliu.login.GuestLoginTest","children":["5897bb73-db85-4621-83a8-e86bbfb8ece6"],"befores":[{"name":"init","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1665280858792,"stop":1665280858797}],"afters":[],"start":1665280851478,"stop":1665280877836}
