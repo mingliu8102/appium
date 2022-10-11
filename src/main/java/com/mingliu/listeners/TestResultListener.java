@@ -14,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.IHookCallBack;
 import org.testng.IHookable;
 import org.testng.ITestResult;
+import org.testng.TestListenerAdapter;
 import org.testng.annotations.BeforeTest;
 
 import java.io.ByteArrayInputStream;
@@ -29,6 +30,8 @@ public class TestResultListener implements IHookable {
         iHookCallBack.runTestMethod(iTestResult);
         //判断用例结果是否异常
 
+        //说明：LoginTest.java中捕获的异常是Assert.assertTrue(displayed);
+        //assert为false时，会抛出异常
         if (iTestResult.getThrowable() != null) {
             //testResult参数提供了getInstance方法，可以获取当前测试类的实例（对象）
             BaseTest baseTest = (BaseTest) iTestResult.getInstance();
